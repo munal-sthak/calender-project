@@ -9,7 +9,6 @@ window.geometry("400x450")
 window.configure(bg="#1e1e2e")
 window.resizable(False, False)
 
-# Title
 tk.Label(
     window,
     text="CLOCK & CALENDAR",
@@ -18,7 +17,6 @@ tk.Label(
     fg="#89b4fa"
 ).pack(pady=15)
 
-# Digital clock
 clock_label = tk.Label(
     window,
     font=("Arial", 36, "bold"),
@@ -27,7 +25,6 @@ clock_label = tk.Label(
 )
 clock_label.pack()
 
-# Date
 date_label = tk.Label(
     window,
     font=("Arial", 14),
@@ -36,7 +33,6 @@ date_label = tk.Label(
 )
 date_label.pack(pady=5)
 
-# Monthly calendar
 calendar_label = tk.Label(
     window,
     font=("Courier New", 13),
